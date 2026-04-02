@@ -15,4 +15,4 @@ button.onclick(function(){
     } else {
         window.location.href = "http://youtube.com/watch?v=xMHJGd3wwZk";
     }
-})
+});
