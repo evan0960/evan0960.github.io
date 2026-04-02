@@ -1,7 +1,7 @@
 var button = document.getElementById("button");
 var image = document.getElementById("img1");
 var numclicks = 0;
-button.onclick(function(){
+button.addEventListener("click",function(){
     if (numclicks < 2){
         var randomnum = Math.floor(Math.random() * 3);
         if (randomnum == 0) {
